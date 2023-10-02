@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
 .logo{
   color: white;
-  text-size-adjust: 150px;
   margin-left: -90px;
 }
 .section__pic-container{
@@ -86,27 +85,11 @@ a:hover {
   display: inline-block;
 }
 
-.coco-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
-}
-
-.coco-icon span {
-  width: 100%;
-  height: 2px;
-  background-color: rgb(236, 121, 39);
-  transition: all 0.3 ease-in-out;
-}
-
 .menu-links {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgb(11, 96, 165);
+  background-color: rgb(28, 45, 197);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -129,30 +112,6 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
-}
-
-.coco-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px, 5px);
-}
-
-.coco-icon.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.coco-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.coco-icon span:first-child {
-  transform: none;
-}
-
-.coco-icon span:first-child {
-  opacity: 1;
-}
-
-.coco-icon span:first-child {
-  transform: none;
 }
 
 /* SECTIONS */
@@ -403,7 +362,7 @@ article .icon {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(243, 231, 231);
   background: rgb(5, 88, 155);
   margin: 2rem auto;
   padding: 0.5rem;

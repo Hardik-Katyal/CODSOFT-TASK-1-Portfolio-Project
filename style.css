@@ -2,11 +2,13 @@
 .logo{
   color: white;
   margin-left: -90px;
+  margin-right: 20px; /* Adjust this value as needed */
 }
 .section__pic-container{
   margin-left: -65px;
 }
 .title{
+  margin-top: 10px;
   color: white;
 }
 * {
@@ -39,6 +41,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+  margin-top: 10px;
 }
 
 nav {
@@ -171,7 +174,7 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  gap: 1rem;
+  gap: 10px; /* Adjust this value as needed */
 }
 
 /* ICONS */
@@ -186,7 +189,7 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 10px;
 }
 
 .btn {
@@ -226,7 +229,7 @@ section {
 }
 
 .btn-container {
-  gap: 1rem;
+  gap: 10px;;
 }
 
 /* ABOUT SECTION */
@@ -239,6 +242,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 .about-details-container {
@@ -270,6 +274,10 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+.details-container.color-container {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
+
 
 .section-container {
   gap: 4rem;
@@ -286,6 +294,7 @@ section {
 
 #experience {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .experience-sub-title {
@@ -306,7 +315,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 10px;
   justify-content: space-around;
 }
 

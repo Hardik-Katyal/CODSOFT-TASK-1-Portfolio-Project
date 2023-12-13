@@ -17,6 +17,7 @@
 }
 
 body{
+  background-image: url('./assets/bgimg.jpg');
   font-family: 'Inconsolata', monospace;
   background-color: rgb(69, 64, 167);
 }
@@ -63,10 +64,10 @@ a {
 }
 
 a:hover {
-  color: rgb(244, 90, 24);
+  color: rgb(40, 190, 255);
   text-decoration: underline;
   text-underline-offset: 1.6rem;
-  text-decoration-color: rgb(170, 67, 67);
+  text-decoration-color: rgb(40, 190, 255);
 }
 
 .logo {
@@ -202,7 +203,8 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(244, 242, 242) 0.1rem solid;
+  color: white;
 }
 
 .btn-color-1:hover,
@@ -233,7 +235,9 @@ section {
 }
 
 /* ABOUT SECTION */
-
+.text-container{
+  color: white;
+}
 #about {
   position: relative;
 }
@@ -266,12 +270,13 @@ section {
 }
 
 .details-container {
+  color: white;
   padding: 1.5rem;
   flex: 1;
   background: rgb(50, 126, 188);  /*menu bg colors*/
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(255, 255, 255) 0.1rem solid;
+  border-color: rgb(255, 255, 255);
   text-align: center;
 }
 .details-container.color-container {
@@ -298,7 +303,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;

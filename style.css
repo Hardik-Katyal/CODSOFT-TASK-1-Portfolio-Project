@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+
+html {zoom: 100%;}
+
 .logo{
   color: white;
   margin-left: -90px;
